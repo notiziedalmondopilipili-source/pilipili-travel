@@ -1,0 +1,622 @@
+[
+  {
+    "id": "combo-zanzibar-safari",
+    "title": "Mare a Zanzibar + Safari nella Savana",
+    "category": "Combinati",
+    "location": "Zanzibar + Tanzania",
+    "duration": "Da 4 a 10 giorni",
+    "price": "Preventivo su misura",
+    "badge": "Più venduto",
+    "description": "Pacchetto combinato per chi vuole relax sull’oceano e safari nei parchi della Tanzania, con trasferimenti coordinati e assistenza locale.",
+    "inclusions": [
+      "Programma mare + safari",
+      "Hotel o villa selezionati",
+      "Richiesta rapida via WhatsApp",
+      "Personalizzazione per coppie, famiglie e gruppi"
+    ],
+    "featured": true,
+    "special": true,
+    "source": "pilipilitravel.com + materiali Drive",
+    "emoji": "🌊🦁"
+  },
+  {
+    "id": "tanzania-express-4g",
+    "title": "Tanzania Express",
+    "category": "Safari",
+    "location": "Tanzania",
+    "duration": "4 giorni",
+    "price": "Su richiesta",
+    "badge": "Express",
+    "description": "Safari veloce ideale per chi ha pochi giorni e vuole aggiungere la savana al soggiorno mare di Zanzibar.",
+    "inclusions": [
+      "Itinerario compatto",
+      "Game drive",
+      "Possibile partenza da Zanzibar",
+      "Preventivo personalizzato"
+    ],
+    "featured": true,
+    "special": false,
+    "source": "www.wwwpilipilitravel.com / sezione Safari",
+    "emoji": "🦒"
+  },
+  {
+    "id": "ngoro-serengeti",
+    "title": "Ngorongoro & Serengeti",
+    "category": "Safari",
+    "location": "Nord Tanzania",
+    "duration": "6–7 giorni consigliati",
+    "price": "Su richiesta",
+    "badge": "Big Five",
+    "description": "Esperienza iconica per chi sogna i grandi paesaggi del nord Tanzania e l’avvistamento dei big five.",
+    "inclusions": [
+      "Parchi del nord",
+      "Lodge o campi tendati",
+      "Guida locale",
+      "Combinabile con Zanzibar"
+    ],
+    "featured": true,
+    "special": true,
+    "source": "pilipilitravel.com / esperienze in evidenza",
+    "emoji": "🦁"
+  },
+  {
+    "id": "best-of-tanzania-6g",
+    "title": "Best of Tanzania Safari",
+    "category": "Safari",
+    "location": "Tanzania",
+    "duration": "6 giorni",
+    "price": "Su richiesta",
+    "badge": "Top safari",
+    "description": "Programma safari completo per vivere i parchi più amati della Tanzania con un ritmo equilibrato.",
+    "inclusions": [
+      "Safari 6 giorni",
+      "Parchi selezionati",
+      "Assistenza nella costruzione itinerario",
+      "Opzione mare finale"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "www.wwwpilipilitravel.com / sezione Safari",
+    "emoji": "🐘"
+  },
+  {
+    "id": "safari-special-5g4n",
+    "title": "Safari Special",
+    "category": "Safari",
+    "location": "Tanzania",
+    "duration": "5 giorni / 4 notti",
+    "price": "Su richiesta",
+    "badge": "Speciale",
+    "description": "Prodotto safari speciale, perfetto per campagne promozionali, agenzie e richieste last minute.",
+    "inclusions": [
+      "Itinerario 5 giorni",
+      "Prodotto in vetrina",
+      "Possibili upgrade",
+      "Richiesta disponibilità immediata"
+    ],
+    "featured": false,
+    "special": true,
+    "source": "www.wwwpilipilitravel.com / sezione Safari Special",
+    "emoji": "🐆"
+  },
+  {
+    "id": "selous-nyerere-24-25",
+    "title": "Safari Selous / Nyerere 24–25",
+    "category": "Safari",
+    "location": "Tanzania del Sud",
+    "duration": "Variabile",
+    "price": "Su richiesta",
+    "badge": "Drive PDF",
+    "description": "Safari nel sud della Tanzania, vendibile come alternativa ai parchi del nord o come estensione da Zanzibar.",
+    "inclusions": [
+      "Proposta da PDF Drive",
+      "Nyerere / Selous",
+      "Preventivo dedicato",
+      "Possibile volo da Zanzibar"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "Drive: SAFARI / SAFARI SELOUS 24-25.pdf",
+    "emoji": "🦛"
+  },
+  {
+    "id": "mnemba-snorkeling",
+    "title": "Mnemba Snorkeling",
+    "category": "Escursioni",
+    "location": "Atollo di Mnemba, Zanzibar",
+    "duration": "Mezza giornata / giornata",
+    "price": "Da definire",
+    "badge": "Oceano",
+    "description": "Giornata in barca con mare cristallino, fondali e pranzo locale su richiesta.",
+    "inclusions": [
+      "Barca",
+      "Snorkeling",
+      "Assistenza locale",
+      "Opzione pranzo"
+    ],
+    "featured": true,
+    "special": false,
+    "source": "pilipilitravel.com / esperienze in evidenza",
+    "emoji": "🤿"
+  },
+  {
+    "id": "stone-town-spezie",
+    "title": "Stone Town + Spezie",
+    "category": "Escursioni",
+    "location": "Stone Town + piantagioni",
+    "duration": "Giornata",
+    "price": "Da definire",
+    "badge": "Cultura",
+    "description": "Mercati, architettura swahili, storia dell’isola e profumi delle piantagioni.",
+    "inclusions": [
+      "Guida",
+      "Tour storico",
+      "Spice tour",
+      "Personalizzabile"
+    ],
+    "featured": true,
+    "special": false,
+    "source": "pilipilitravel.com / esperienze in evidenza",
+    "emoji": "🕌"
+  },
+  {
+    "id": "safari-blue",
+    "title": "Safari Blue",
+    "category": "Escursioni",
+    "location": "Zanzibar",
+    "duration": "Giornata",
+    "price": "Da definire",
+    "badge": "Best seller",
+    "description": "Escursione in barca tradizionale, snorkeling, sandbank e pranzo seafood in stile locale.",
+    "inclusions": [
+      "Barca",
+      "Snorkeling",
+      "Pranzo",
+      "Esperienza oceano"
+    ],
+    "featured": true,
+    "special": false,
+    "source": "Drive: ZANZIBAR / ESCURSIONI + sito",
+    "emoji": "⛵"
+  },
+  {
+    "id": "prison-island",
+    "title": "Prison Island",
+    "category": "Escursioni",
+    "location": "Zanzibar",
+    "duration": "Mezza giornata",
+    "price": "Da definire",
+    "badge": "Classico",
+    "description": "Escursione classica con storia dell’isola e incontro con le tartarughe giganti.",
+    "inclusions": [
+      "Trasferimento opzionale",
+      "Barca",
+      "Guida",
+      "Combinabile con Stone Town"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "www.pilipilitravel.com / foto esperienze",
+    "emoji": "🐢"
+  },
+  {
+    "id": "the-rock-restaurant",
+    "title": "The Rock Restaurant Experience",
+    "category": "Ristoranti",
+    "location": "Michamvi, Zanzibar",
+    "duration": "Pranzo o cena",
+    "price": "Da definire",
+    "badge": "Iconico",
+    "description": "Esperienza food in uno dei luoghi più fotografati di Zanzibar, vendibile con trasferimento e tour mare.",
+    "inclusions": [
+      "Prenotazione su richiesta",
+      "Trasferimento opzionale",
+      "Esperienza fotografica",
+      "Combinabile con spiagge sud-est"
+    ],
+    "featured": false,
+    "special": true,
+    "source": "www.pilipilitravel.com / foto esperienze",
+    "emoji": "🍽️"
+  },
+  {
+    "id": "mtende-beach",
+    "title": "Mtende Beach",
+    "category": "Escursioni",
+    "location": "Sud Zanzibar",
+    "duration": "Mezza giornata / giornata",
+    "price": "Da definire",
+    "badge": "Natura",
+    "description": "Spiaggia scenografica nel sud dell’isola, perfetta per tour fotografici e giornata relax.",
+    "inclusions": [
+      "Trasferimento",
+      "Stop fotografici",
+      "Guida locale",
+      "Abbinabile a The Rock"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "www.pilipilitravel.com / foto esperienze",
+    "emoji": "🏝️"
+  },
+  {
+    "id": "jozani-forest",
+    "title": "Jozani Forest e scimmie rosse",
+    "category": "Escursioni",
+    "location": "Jozani, Zanzibar",
+    "duration": "Mezza giornata",
+    "price": "Da definire",
+    "badge": "Natura",
+    "description": "Tour naturalistico nella foresta di Jozani per osservare la fauna locale e scoprire l’ambiente dell’isola.",
+    "inclusions": [
+      "Guida",
+      "Foresta",
+      "Mangrovie",
+      "Trasferimento opzionale"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "www.pilipilitravel.com / foto esperienze",
+    "emoji": "🐒"
+  },
+  {
+    "id": "passeggiata-cavallo",
+    "title": "Passeggiata a cavallo sulla spiaggia",
+    "category": "Escursioni",
+    "location": "Zanzibar",
+    "duration": "Su richiesta",
+    "price": "Da definire",
+    "badge": "Romantico",
+    "description": "Prodotto emozionale perfetto per coppie, honeymoon e contenuti social.",
+    "inclusions": [
+      "Esperienza privata o condivisa",
+      "Orario su richiesta",
+      "Foto ricordo",
+      "Trasferimento opzionale"
+    ],
+    "featured": false,
+    "special": true,
+    "source": "www.pilipilitravel.com / foto esperienze",
+    "emoji": "🐎"
+  },
+  {
+    "id": "amani-villa-zanzibar",
+    "title": "Amani Villa Zanzibar",
+    "category": "Strutture",
+    "location": "Pwani Mchangani",
+    "duration": "Soggiorno flessibile",
+    "price": "Chiedi disponibilità",
+    "badge": "Villa",
+    "description": "Soggiorno tranquillo vicino all’oceano con escursioni, trasferimenti e ristorante coordinati.",
+    "inclusions": [
+      "Camere tropicali",
+      "Colazione su richiesta",
+      "Pacchetti escursioni",
+      "Assistenza locale"
+    ],
+    "featured": true,
+    "special": true,
+    "source": "pilipilitravel.com + Drive: Amani-Villa-Zanzibar",
+    "emoji": "🌴"
+  },
+  {
+    "id": "bahati-villa-resort",
+    "title": "Bahati Villa Resort",
+    "category": "Strutture",
+    "location": "Zanzibar",
+    "duration": "Soggiorno",
+    "price": "Chiedi disponibilità",
+    "badge": "Resort",
+    "description": "Struttura selezionata per pacchetti soggiorno, tour mare e combinati con safari.",
+    "inclusions": [
+      "Disponibilità su richiesta",
+      "Pacchetti combinabili",
+      "Trasferimenti opzionali",
+      "Supporto agenzie"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "Drive: ZANZIBAR / Bahati Villa RESORT",
+    "emoji": "🏨"
+  },
+  {
+    "id": "nungwi-dreams",
+    "title": "Nungwi Dreams by Mantis",
+    "category": "Strutture",
+    "location": "Nungwi",
+    "duration": "Soggiorno",
+    "price": "Chiedi disponibilità",
+    "badge": "Hotel",
+    "description": "Struttura mare da inserire in pacchetti Zanzibar, safari + mare o soggiorni speciali.",
+    "inclusions": [
+      "Area Nungwi",
+      "Soggiorni coppie/famiglie",
+      "Pacchetti mare",
+      "Richiesta rapida"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "Drive: ZANZIBAR / Nungwi Dreams by Mantis",
+    "emoji": "🌅"
+  },
+  {
+    "id": "sansi-kendwa",
+    "title": "Sansi Kendwa Beach Resort",
+    "category": "Strutture",
+    "location": "Kendwa",
+    "duration": "Soggiorno",
+    "price": "Chiedi disponibilità",
+    "badge": "4 stelle",
+    "description": "Resort mare per pacchetti relax, coppie, gruppi e combinati con safari.",
+    "inclusions": [
+      "Kendwa beach",
+      "Resort mare",
+      "Combinabile con party night",
+      "Preventivo su misura"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "Drive: ZANZIBAR / 4 STAR - SANSI KENDWA BEACH RESORT",
+    "emoji": "🏖️"
+  },
+  {
+    "id": "sansi-kae",
+    "title": "Sansi Kae Beach Resort & Spa",
+    "category": "Strutture",
+    "location": "Zanzibar",
+    "duration": "Soggiorno",
+    "price": "Chiedi disponibilità",
+    "badge": "5 stelle",
+    "description": "Resort e spa vendibile come soggiorno premium o upgrade in combinato mare+safari.",
+    "inclusions": [
+      "Resort 5 stelle",
+      "Spa",
+      "Disponibilità su richiesta",
+      "Upgrade pacchetti"
+    ],
+    "featured": false,
+    "special": true,
+    "source": "Drive: ZANZIBAR / 5 STAR - SANSI KAE BEACH RESORT AND SPA ZANZIBAR",
+    "emoji": "✨"
+  },
+  {
+    "id": "blu-marlin-village",
+    "title": "Blu Marlin Village Zanzibar",
+    "category": "Strutture",
+    "location": "Zanzibar",
+    "duration": "Soggiorno",
+    "price": "Chiedi disponibilità",
+    "badge": "Beach resort",
+    "description": "Prodotto struttura per clienti che cercano mare, semplicità e pacchetti pronti.",
+    "inclusions": [
+      "Soggiorno mare",
+      "Trasferimenti opzionali",
+      "Escursioni abbinabili",
+      "Richiesta disponibilità"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "Drive: ZANZIBAR / Blu Marlin village Zanzibar",
+    "emoji": "🌊"
+  },
+  {
+    "id": "mvuvi-resort",
+    "title": "Mvuvi Boutique Resort",
+    "category": "Strutture",
+    "location": "Zanzibar",
+    "duration": "Soggiorno",
+    "price": "Chiedi disponibilità",
+    "badge": "Boutique",
+    "description": "Boutique resort per viaggiatori che desiderano un soggiorno più raccolto e curato.",
+    "inclusions": [
+      "Boutique stay",
+      "Mare",
+      "Preventivo dedicato",
+      "Pacchetti escursioni"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "Drive: ZANZIBAR / Mvuvi Boutique Resort",
+    "emoji": "🛏️"
+  },
+  {
+    "id": "zanzibar-pearl",
+    "title": "Zanzibar Pearl Boutique Hotel & Villas",
+    "category": "Strutture",
+    "location": "Zanzibar",
+    "duration": "Soggiorno",
+    "price": "Chiedi disponibilità",
+    "badge": "Boutique villas",
+    "description": "Hotel e ville boutique da proporre in pacchetti mare personalizzati.",
+    "inclusions": [
+      "Hotel/villas",
+      "Preventivo",
+      "Upgrade su richiesta",
+      "Combinato safari"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "Drive: ZANZIBAR / Zanzibar Pearl Boutique Hotel & Villas",
+    "emoji": "🏡"
+  },
+  {
+    "id": "sharazad-group",
+    "title": "Sharazad Group",
+    "category": "Strutture",
+    "location": "Zanzibar",
+    "duration": "Soggiorno",
+    "price": "Chiedi disponibilità",
+    "badge": "Partner",
+    "description": "Struttura partner per pacchetti soggiorno e richieste su misura.",
+    "inclusions": [
+      "Partner struttura",
+      "Pacchetti su misura",
+      "Disponibilità",
+      "Assistenza"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "Drive: ZANZIBAR / Sharazad group",
+    "emoji": "🤝"
+  },
+  {
+    "id": "villa-dida",
+    "title": "Villa Dida Hotel Zanzibar",
+    "category": "Strutture",
+    "location": "Zanzibar",
+    "duration": "Soggiorno",
+    "price": "Chiedi disponibilità",
+    "badge": "Hotel",
+    "description": "Hotel da inserire nel catalogo disponibilità per clienti e agenzie.",
+    "inclusions": [
+      "Hotel",
+      "Disponibilità su richiesta",
+      "Pacchetti mare",
+      "Supporto agenzie"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "Drive: ZANZIBAR / Villa Dida hotel Zanzibar",
+    "emoji": "🏩"
+  },
+  {
+    "id": "tao-hotel-spa",
+    "title": "TAO Hotel & Spa Zanzibar",
+    "category": "Strutture",
+    "location": "Zanzibar",
+    "duration": "Soggiorno",
+    "price": "Chiedi disponibilità",
+    "badge": "Spa",
+    "description": "Proposta soggiorno con focus relax e servizi wellness.",
+    "inclusions": [
+      "Spa",
+      "Soggiorno",
+      "Pacchetti relax",
+      "Preventivo"
+    ],
+    "featured": false,
+    "special": false,
+    "source": "Drive: ZANZIBAR / TAO HOTEL & SPA ZANZIBAR",
+    "emoji": "💆"
+  },
+  {
+    "id": "waikiki-party-night",
+    "title": "Waikiki Party Night",
+    "category": "Party Night",
+    "location": "Kiwengwa",
+    "duration": "Tutta la notte",
+    "price": "Da definire",
+    "badge": "Nightlife",
+    "description": "Serata speciale a Kiwengwa, ideale come add-on per gruppi, giovani e pacchetti experience.",
+    "inclusions": [
+      "Party night",
+      "Kiwengwa",
+      "Trasferimento opzionale",
+      "Vendibile come extra"
+    ],
+    "featured": true,
+    "special": true,
+    "source": "www.wwwpilipilitravel.com / Special Party Night",
+    "emoji": "🎉"
+  },
+  {
+    "id": "full-moon-party",
+    "title": "Full Moon Party",
+    "category": "Party Night",
+    "location": "Kendwa Beach",
+    "duration": "Serata",
+    "price": "Da definire",
+    "badge": "Kendwa",
+    "description": "Kendwa Beach Party vendibile come esperienza speciale e prodotto ad alto impatto commerciale.",
+    "inclusions": [
+      "Party in spiaggia",
+      "Kendwa",
+      "Gruppi",
+      "Transfer opzionale"
+    ],
+    "featured": true,
+    "special": true,
+    "source": "www.wwwpilipilitravel.com / Special Party Night",
+    "emoji": "🌕"
+  },
+  {
+    "id": "cocco-bello-club",
+    "title": "Cocco Bello Club",
+    "category": "Party Night",
+    "location": "Nungwi",
+    "duration": "Mercoledì & Domenica",
+    "price": "Da definire",
+    "badge": "Club",
+    "description": "Serata club vendibile come extra per clienti in zona Nungwi e pacchetti nightlife.",
+    "inclusions": [
+      "Club night",
+      "Mercoledì e domenica",
+      "Nungwi",
+      "Richiesta disponibilità"
+    ],
+    "featured": false,
+    "special": true,
+    "source": "www.wwwpilipilitravel.com / Special Party Night + Drive COCCO BELLO",
+    "emoji": "💃"
+  },
+  {
+    "id": "waikiki-food",
+    "title": "Waikiki Beach Food Experience",
+    "category": "Ristoranti",
+    "location": "Kiwengwa",
+    "duration": "Pranzo / cena",
+    "price": "Da definire",
+    "badge": "Food",
+    "description": "Esperienza ristorante e beach club da proporre come prodotto speciale o add-on al soggiorno.",
+    "inclusions": [
+      "Food experience",
+      "Spiaggia",
+      "Gruppi",
+      "Pacchetto extra"
+    ],
+    "featured": false,
+    "special": true,
+    "source": "www.wwwpilipilitravel.com / contenuti party e food",
+    "emoji": "🍤"
+  },
+  {
+    "id": "aragoste-seafood",
+    "title": "Seafood & Aragoste Experience",
+    "category": "Ristoranti",
+    "location": "Zanzibar",
+    "duration": "Pranzo / cena",
+    "price": "Da definire",
+    "badge": "Gourmet locale",
+    "description": "Esperienza culinaria locale con seafood, ideale per coppie, gruppi e pacchetti romantici.",
+    "inclusions": [
+      "Menu seafood",
+      "Esperienza locale",
+      "Abbinabile a escursioni",
+      "Prenotazione su richiesta"
+    ],
+    "featured": false,
+    "special": true,
+    "source": "www.pilipilitravel.com / foto esperienze food",
+    "emoji": "🦞"
+  },
+  {
+    "id": "last-minute-agency",
+    "title": "Proposte Agenzie & Last Minute",
+    "category": "Combinati",
+    "location": "Zanzibar / Tanzania / Kenya",
+    "duration": "Variabile",
+    "price": "Offerta su richiesta",
+    "badge": "Agenzie",
+    "description": "Area commerciale per caricare offerte last minute, prodotti in vetrina e proposte dedicate alle agenzie partner.",
+    "inclusions": [
+      "Offerta modificabile",
+      "Prodotti speciali",
+      "Vetrina agenzie",
+      "Richiesta veloce"
+    ],
+    "featured": true,
+    "special": true,
+    "source": "www.wwwpilipilitravel.com / Proposte delle nostre agenzie",
+    "emoji": "🔥"
+  }
+]

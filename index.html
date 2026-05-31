@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PiliPiliTravel Mega Catalogo | Safari, Zanzibar, Hotel ed Esperienze</title>
+  <meta name="description" content="Catalogo online modificabile per vendere safari, Zanzibar, strutture, escursioni, ristoranti e party night con richiesta WhatsApp ed email." />
+  <meta name="theme-color" content="#0f2f2a" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#catalogo">Vai al catalogo</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Navigazione principale">
+      <a class="brand" href="#top" aria-label="PiliPiliTravel home">
+        <img src="assets/logo.svg" alt="" width="44" height="44" />
+        <span>
+          <strong>Amani Tour & Safari</strong>
+          <small>PiliPiliTravel · Zanzibar</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks">Menu</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#catalogo">Catalogo</a>
+        <a href="#combinatore">Crea viaggio</a>
+        <a href="#perche-noi">Perché noi</a>
+        <a href="#contatti">Contatti</a>
+        <button class="btn btn-ghost btn-small" id="openAdmin" type="button">Gestione prodotti</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Zanzibar · Tanzania · Kenya</p>
+          <h1>Zanzibar in un click: scegli, combina, parti.</h1>
+          <p class="hero-subtitle">Safari, mare, hotel, escursioni e serate speciali in un catalogo digitale pensato per trasformare l’interesse del cliente in una richiesta immediata.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#catalogo">Scopri le offerte</a>
+            <a class="btn btn-secondary" id="heroWhatsApp" href="#" target="_blank" rel="noopener">Preventivo WhatsApp</a>
+          </div>
+          <div class="trust-row" aria-label="Punti di forza">
+            <span>Assistenza locale 24/7</span>
+            <span>Preventivi su misura</span>
+            <span>Mare + safari</span>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Richiesta rapida">
+          <span class="card-label">Richiesta rapida</span>
+          <h2>Crea il viaggio perfetto</h2>
+          <p>Il cliente seleziona prodotti, date e budget. Il catalogo genera automaticamente il messaggio per WhatsApp o email.</p>
+          <div class="mini-stats">
+            <div><strong id="statProducts">0</strong><small>prodotti</small></div>
+            <div><strong id="statSpecials">0</strong><small>speciali</small></div>
+            <div><strong>6</strong><small>categorie</small></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="container intro-strip" aria-label="Categorie principali">
+      <article><span>🦁</span><strong>Safari</strong><small>Tanzania e Kenya</small></article>
+      <article><span>🏝️</span><strong>Zanzibar</strong><small>Tour e oceano</small></article>
+      <article><span>🏨</span><strong>Hotel</strong><small>Strutture selezionate</small></article>
+      <article><span>🎉</span><strong>Special</strong><small>Party e prodotti extra</small></article>
+    </section>
+
+    <section class="container" id="catalogo">
+      <div class="section-heading">
+        <span class="eyebrow">Mega catalogo</span>
+        <h2>Prodotti pronti da vendere</h2>
+        <p>Filtra, cerca, seleziona e invia una richiesta. I prodotti possono essere aggiunti, modificati o rimossi dalla sezione gestione.</p>
+      </div>
+
+      <div class="toolbar" aria-label="Filtri catalogo">
+        <label class="search-box">
+          <span>Cerca</span>
+          <input id="searchInput" type="search" placeholder="Safari, Mnemba, Kendwa, villa, party..." autocomplete="off" />
+        </label>
+        <label>
+          <span>Categoria</span>
+          <select id="categoryFilter"></select>
+        </label>
+        <label>
+          <span>Ordina</span>
+          <select id="sortFilter">
+            <option value="featured">In vetrina prima</option>
+            <option value="az">Nome A-Z</option>
+            <option value="category">Categoria</option>
+            <option value="special">Speciali prima</option>
+          </select>
+        </label>
+        <button class="btn btn-dark" id="clearFilters" type="button">Reset filtri</button>
+      </div>
+
+      <div class="catalog-layout">
+        <div>
+          <div class="result-bar">
+            <span id="resultCount">0 prodotti</span>
+            <span id="activeFilterLabel">Tutto il catalogo</span>
+          </div>
+          <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        </div>
+        <aside class="cart-panel" id="combinatore" aria-label="Combinatore richiesta">
+          <div class="cart-sticky">
+            <span class="card-label">Combinatore</span>
+            <h2>La tua richiesta</h2>
+            <p class="muted">Seleziona prodotti dal catalogo e completa i dettagli del viaggio.</p>
+            <div class="cart-items" id="cartItems"></div>
+            <form class="request-form" id="requestForm">
+              <label>Nome cliente o agenzia
+                <input name="name" placeholder="Nome" />
+              </label>
+              <div class="two-cols">
+                <label>Arrivo
+                  <input name="arrival" type="date" />
+                </label>
+                <label>Ritorno
+                  <input name="return" type="date" />
+                </label>
+              </div>
+              <div class="two-cols">
+                <label>Adulti
+                  <input name="adults" type="number" min="0" value="2" />
+                </label>
+                <label>Bambini
+                  <input name="children" type="number" min="0" value="0" />
+                </label>
+              </div>
+              <label>Tipologia viaggio
+                <select name="style">
+                  <option>Combinato mare + safari</option>
+                  <option>Solo safari</option>
+                  <option>Solo oceano</option>
+                  <option>Escursioni a Zanzibar</option>
+                  <option>Hotel / struttura</option>
+                  <option>Prodotto speciale / party</option>
+                  <option>Richiesta agenzia</option>
+                </select>
+              </label>
+              <label>Budget indicativo
+                <select name="budget">
+                  <option>Da definire</option>
+                  <option>Fino a 1.000 USD a persona</option>
+                  <option>1.000 - 2.000 USD a persona</option>
+                  <option>2.000 - 3.000 USD a persona</option>
+                  <option>3.000 - 5.000 USD a persona</option>
+                  <option>Oltre 5.000 USD a persona</option>
+                </select>
+              </label>
+              <label>Note
+                <textarea name="notes" rows="4" placeholder="Hotel preferiti, trattamento, volo, richieste speciali..."></textarea>
+              </label>
+            </form>
+            <div class="cart-actions">
+              <a class="btn btn-primary full" id="whatsappLink" href="#" target="_blank" rel="noopener">Invia WhatsApp</a>
+              <a class="btn btn-secondary full" id="emailLink" href="#">Invia email</a>
+              <button class="btn btn-ghost full" id="copyRequest" type="button">Copia richiesta</button>
+              <button class="btn btn-danger full" id="emptyCart" type="button">Svuota selezione</button>
+            </div>
+            <p class="small-note">Nota: il modulo non salva dati su server. Genera solo un messaggio pronto da inviare.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="sales-section">
+      <div class="container sales-grid">
+        <div>
+          <span class="eyebrow">Area commerciale</span>
+          <h2>Offerte in vetrina, last minute e prodotti speciali</h2>
+          <p>Usa la gestione prodotti per spingere una villa, un safari, una serata o un pacchetto agenzia. Ogni scheda può diventare “speciale” o “in vetrina”.</p>
+        </div>
+        <div class="sales-cards">
+          <article><strong>1</strong><span>Carica prodotto</span></article>
+          <article><strong>2</strong><span>Cliente seleziona</span></article>
+          <article><strong>3</strong><span>Richiesta immediata</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="container why" id="perche-noi">
+      <div class="section-heading">
+        <span class="eyebrow">Perché scegliere noi</span>
+        <h2>Un solo team per viaggio, safari e ospitalità</h2>
+      </div>
+      <div class="why-grid">
+        <article>
+          <span>🌍</span>
+          <h3>Esperienza locale</h3>
+          <p>Team sul territorio per accompagnare il cliente oltre le rotte standard, tra cultura swahili, oceano e parchi.</p>
+        </article>
+        <article>
+          <span>🦁</span>
+          <h3>Safari su misura</h3>
+          <p>Itinerari in Tanzania e Kenya con guide locali, lodge selezionati e combinazioni mare+savana.</p>
+        </article>
+        <article>
+          <span>🤝</span>
+          <h3>Supporto agenzie</h3>
+          <p>Catalogo pensato per richieste last minute, preventivi rapidi, gruppi, famiglie e agenzie partner.</p>
+        </article>
+        <article>
+          <span>✨</span>
+          <h3>Prodotti speciali</h3>
+          <p>Party night, ristoranti, escursioni, upgrade hotel e offerte in vetrina per aumentare il valore della vendita.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container faq" aria-label="Domande frequenti">
+      <div class="section-heading">
+        <span class="eyebrow">FAQ</span>
+        <h2>Domande veloci</h2>
+      </div>
+      <details open>
+        <summary>Posso aggiungere e togliere prodotti?</summary>
+        <p>Sì. Apri “Gestione prodotti”, aggiungi, modifica o cancella le schede. Le modifiche vengono salvate nel browser con localStorage. Per pubblicare modifiche definitive conviene esportare il JSON e aggiornare il file del sito.</p>
+      </details>
+      <details>
+        <summary>Il sito vende online con pagamento?</summary>
+        <p>Questa versione è ottimizzata per richiesta preventivo via WhatsApp/email. Si può collegare in futuro a pagamento online, CRM, Google Sheet, Stripe o WooCommerce.</p>
+      </details>
+      <details>
+        <summary>Come lo inserisco nel sito esistente?</summary>
+        <p>Carica la cartella sul tuo hosting e collega la pagina index.html. In alternativa puoi incorporarla con un iframe nella pagina del sito principale.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer" id="contatti">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <img src="assets/logo.svg" alt="" width="44" height="44" />
+          <span><strong>Amani Tour & Safari</strong><small>PiliPiliTravel · Zanzibar</small></span>
+        </a>
+        <p>Viaggi su misura, safari, tour a Zanzibar, hotel selezionati e soggiorni ad Amani Villa Zanzibar.</p>
+      </div>
+      <div>
+        <h3>Esplora</h3>
+        <a href="#catalogo">Catalogo</a>
+        <a href="#combinatore">Crea richiesta</a>
+        <a href="#perche-noi">Perché noi</a>
+      </div>
+      <div>
+        <h3>Contatti</h3>
+        <p>Italia / WhatsApp: <a href="https://wa.me/393891358540" target="_blank" rel="noopener">+39 389 135 8540</a></p>
+        <p>Zanzibar: +255 629 381 793</p>
+        <p>Email: <a href="mailto:info@pilipilitravel.com">info@pilipilitravel.com</a></p>
+        <p>Pwani Mchangani, Zanzibar, Tanzania</p>
+      </div>
+      <div>
+        <h3>Newsletter</h3>
+        <p>Spazio pronto per collegare Mailchimp, Brevo o un form del sito esistente.</p>
+        <form class="newsletter" onsubmit="event.preventDefault(); alert('Modulo demo: collega qui il tuo servizio newsletter.');">
+          <input type="email" placeholder="Email" required />
+          <button class="btn btn-primary" type="submit">Iscrivimi</button>
+        </form>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>© <span id="year"></span> Amani Tour & Safari Zanzibar LTD · PiliPiliTravel. Catalogo statico responsive pronto per hosting.</small>
+      <a href="#top">Torna su</a>
+    </div>
+  </footer>
+
+  <dialog class="admin-modal" id="adminDialog" aria-label="Gestione prodotti">
+    <div class="admin-shell">
+      <div class="admin-head">
+        <div>
+          <span class="eyebrow">Gestione catalogo</span>
+          <h2>Aggiungi, modifica o rimuovi prodotti</h2>
+          <p>Le modifiche restano nel browser. Esporta il JSON per salvarle e pubblicarle.</p>
+        </div>
+        <button class="icon-btn" id="closeAdmin" type="button" aria-label="Chiudi">×</button>
+      </div>
+
+      <div class="admin-actions">
+        <button class="btn btn-primary" id="newProduct" type="button">Nuovo prodotto</button>
+        <button class="btn btn-secondary" id="exportProducts" type="button">Esporta JSON</button>
+        <label class="btn btn-secondary file-btn">Importa JSON<input id="importProducts" type="file" accept="application/json" /></label>
+        <button class="btn btn-danger" id="resetProducts" type="button">Ripristina catalogo base</button>
+      </div>
+
+      <form class="admin-form" id="productForm">
+        <input type="hidden" name="id" />
+        <div class="two-cols">
+          <label>Titolo prodotto<input name="title" required /></label>
+          <label>Categoria
+            <select name="category" required>
+              <option>Combinati</option>
+              <option>Safari</option>
+              <option>Escursioni</option>
+              <option>Strutture</option>
+              <option>Ristoranti</option>
+              <option>Party Night</option>
+            </select>
+          </label>
+        </div>
+        <div class="three-cols">
+          <label>Località<input name="location" /></label>
+          <label>Durata<input name="duration" /></label>
+          <label>Prezzo<input name="price" /></label>
+        </div>
+        <div class="three-cols">
+          <label>Badge<input name="badge" /></label>
+          <label>Emoji/Icona<input name="emoji" placeholder="🌴" /></label>
+          <label>Fonte<input name="source" /></label>
+        </div>
+        <label>Descrizione<textarea name="description" rows="4" required></textarea></label>
+        <label>Inclusioni, separate da punto e virgola<textarea name="inclusions" rows="3" placeholder="Guida; trasferimento; pranzo"></textarea></label>
+        <div class="check-row">
+          <label><input name="featured" type="checkbox" /> In vetrina</label>
+          <label><input name="special" type="checkbox" /> Prodotto speciale</label>
+        </div>
+        <div class="admin-form-actions">
+          <button class="btn btn-primary" type="submit">Salva prodotto</button>
+          <button class="btn btn-ghost" id="cancelEdit" type="button">Pulisci form</button>
+        </div>
+      </form>
+
+      <div class="admin-list" id="adminList"></div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
